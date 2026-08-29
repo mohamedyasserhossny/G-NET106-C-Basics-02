@@ -81,6 +81,14 @@
             Console.WriteLine(stringpages);
             Console.WriteLine(stringpages.GetType());
             #endregion
+            #region question 10
+            int copies = 100;
+            object boxedcopies = copies;
+            object unboxedcopies = (int)boxedcopies;
+            Console.WriteLine(unboxedcopies);
+
+            #endregion
+
 
         }
     }
