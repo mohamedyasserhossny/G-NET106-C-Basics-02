@@ -61,6 +61,20 @@
             int intpagestext = Convert.ToInt32(pagestext);
             Console.WriteLine(intpagestext);
             #endregion
+            #region question 8
+            string yeartext = "2023";
+            int parsedyear = int.Parse(yeartext);
+            Console.WriteLine($"parsedyear={yeartext}");
+            string badtext = "abc";
+            if (int.TryParse(badtext, out int intbadtext))
+            {
+                Console.WriteLine($"bad text is parsed ={intbadtext}");
+            }
+            else
+            {
+                Console.WriteLine($"bad text is not parsed={badtext}");
+            }
+            #endregion
         }
     }
 }
