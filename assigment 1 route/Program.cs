@@ -18,6 +18,10 @@
             Console.WriteLine(b1.GetHashCode());
             Console.WriteLine(b1.GetType());
             #endregion
+            #region question 3
+            // its a compile time eroor 
+            // answer:int pages=464;
+            #endregion
         }
     }
 }
