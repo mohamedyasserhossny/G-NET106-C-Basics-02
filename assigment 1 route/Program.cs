@@ -56,6 +56,11 @@
             int intprice = (int)price;
             Console.WriteLine(intprice);
             #endregion
+            #region question 7
+            string pagestext = "464";
+            int intpagestext = Convert.ToInt32(pagestext);
+            Console.WriteLine(intpagestext);
+            #endregion
         }
     }
 }
