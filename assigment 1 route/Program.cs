@@ -22,6 +22,30 @@
             // its a compile time eroor 
             // answer:int pages=464;
             #endregion
+            #region question4 
+            int x = 10;
+            int y = 0;
+            try
+            {
+                double div = x / y;
+                Console.WriteLine(div);
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine($"can not divide by zero ={ex.Message}");
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine($"can not divide by zero ={ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"can not divide by zero ={ex.Message}");
+            }
+            finally
+            { Console.WriteLine("done"); }
+
+            #endregion
         }
     }
 }
