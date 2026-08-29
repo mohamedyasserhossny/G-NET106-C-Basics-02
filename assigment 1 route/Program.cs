@@ -46,6 +46,11 @@
             { Console.WriteLine("done"); }
 
             #endregion
+            #region question 5
+            int pages = 300;
+            double doubeledpages = pages;
+            Console.WriteLine($"dobleld ={doubeledpages}");
+            #endregion
         }
     }
 }
