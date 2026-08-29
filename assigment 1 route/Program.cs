@@ -75,6 +75,13 @@
                 Console.WriteLine($"bad text is not parsed={badtext}");
             }
             #endregion
+            #region question 9
+            int pagess = 464;
+            string stringpages = Convert.ToString(pagess);
+            Console.WriteLine(stringpages);
+            Console.WriteLine(stringpages.GetType());
+            #endregion
+
         }
     }
 }
