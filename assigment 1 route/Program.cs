@@ -51,6 +51,11 @@
             double doubeledpages = pages;
             Console.WriteLine($"dobleld ={doubeledpages}");
             #endregion
+            #region question 6
+            double price = 49.99;
+            int intprice = (int)price;
+            Console.WriteLine(intprice);
+            #endregion
         }
     }
 }
